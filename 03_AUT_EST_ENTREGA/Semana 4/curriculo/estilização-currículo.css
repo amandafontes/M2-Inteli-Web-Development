@@ -78,14 +78,13 @@ h3{
 	border: solid 1px;
 	border-radius: 1px;
 	cursor: pointer;
-	font-size: small;
+	font-size: large;
 	padding: 10px;
-    background: rgb(60, 22, 22);
+    background: 20px rgb(60, 22, 22);
     color: #ffffff;
-    /* height: 70px;
-    width: 80px; */
+    height: 70px;
+    width: 80px;
     justify-content: center;
-    text-align: center;
     /* visibility: hidden; */
     /* display: none; */
 }
