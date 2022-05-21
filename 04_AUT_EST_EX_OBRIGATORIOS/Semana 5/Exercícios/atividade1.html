@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <script src="atividade1.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <input id="num1" type="number" placeholder="Insira o primeiro número"></input>
+        <input id="num2" type="number" placeholder="Insira o segundo número"></input>
+    </div>
+
+    <fieldset>
+        <legend>Escolha a operação que deseja realizar:</legend>
+
+        <div>
+            <input type="checkbox" id="soma" name="soma" checked>
+            <label for="soma">Soma (+)</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subtração" name="subtração">
+            <label for="subtração">Subtração (-)</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="multiplicação" name="multiplicação">
+            <label for="multiplicação">Multiplicação (*)</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="divisãoInteira" name="divisãoInteira">
+            <label for="divisãoInteira">Divisão Inteira (//)</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="divisãoExata" name="divisãoExata">
+            <label for="divisãoExata">Divisão Exata (/)</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="restoDiv" name="restoDiv">
+            <label for="restoDiv">Resto Divisão (%)</label>
+        </div>
+
+    </fieldset>
+
+    <div>
+        <button id="botao" type="button">Calcular</button>
+    </div>
+</body>
+
+</html>
