@@ -11,49 +11,69 @@
 
 <body>
 
-    <div>
-        <input id="num1" type="number" placeholder="Insira o primeiro número"></input>
-        <input id="num2" type="number" placeholder="Insira o segundo número"></input>
-    </div>
-
-    <fieldset>
-        <legend>Escolha a operação que deseja realizar:</legend>
+    <fieldset type="fieldset" id="fieldset">
 
         <div>
-            <input type="checkbox" id="soma" name="soma" checked>
+            <input id="num1" type="number" placeholder="Insira o primeiro número"></input>
+            <input id="num2" type="number" placeholder="Insira o segundo número"></input>
+        </div>
+
+        <legend>Escolha a operação que deseja realizar:</legend>
+
+        <select id="operação">
+
+            <option value="soma">+</option>
+            <option value="subtração">-</option>
+            <option value="multiplicação">*</option>
+            <option value="divisãoInteira">//</option>
+            <option value="divisãoExata">/</option>
+            <option value="módulo">%</option>
+
+        </select>
+
+        <!-- <div>
+            <input value="soma" type="checkbox" id="soma" name="soma">
             <label for="soma">Soma (+)</label>
         </div>
 
         <div>
-            <input type="checkbox" id="subtração" name="subtração">
+            <input value="subtração" type="checkbox" id="subtração" name="subtração">
             <label for="subtração">Subtração (-)</label>
         </div>
 
         <div>
-            <input type="checkbox" id="multiplicação" name="multiplicação">
+            <input value="multiplicação" type="checkbox" id="multiplicação" name="multiplicação">
             <label for="multiplicação">Multiplicação (*)</label>
         </div>
 
         <div>
-            <input type="checkbox" id="divisãoInteira" name="divisãoInteira">
+            <input value="divisãoInteira" type="checkbox" id="divisãoInteira" name="divisãoInteira">
             <label for="divisãoInteira">Divisão Inteira (//)</label>
         </div>
 
         <div>
-            <input type="checkbox" id="divisãoExata" name="divisãoExata">
+            <input value="divisãoExata" type="checkbox" id="divisãoExata" name="divisãoExata">
             <label for="divisãoExata">Divisão Exata (/)</label>
         </div>
 
         <div>
-            <input type="checkbox" id="restoDiv" name="restoDiv">
+            <input value="restoDiv" type="checkbox" id="restoDiv" name="restoDiv">
             <label for="restoDiv">Resto Divisão (%)</label>
-        </div>
+        </div> -->
 
     </fieldset>
 
+
     <div>
-        <button id="botao" type="button">Calcular</button>
+        <button onclick=calculate() id="botao" type="button">Calcular</button>
     </div>
+
+    <div class="saida">
+        Resultado:
+        <!-- <output type="output" id="resultado" name="resultado"></output> -->
+        <p id="resultado"></p>
+    </div>
+
 </body>
 
 </html>
