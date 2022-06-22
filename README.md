@@ -19,7 +19,13 @@ Minhas entregas, referentes às atividades de autoestudo, estão definidas aqui:
 
 ## Exercícios Obrigatórios
 <a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 19/04/2022 - Resolução de problemas com algoritmos (Semana 03) </a>
+<br>
 <a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/Exerc%C3%ADcios"> 20/05/2022 - Resolução de problemas com algoritmos (Semana 05) </a>
+<br>
+<a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 06/06/2022 - Resolução de problemas com algoritmos (Semana 07) </a>
+<br>
+<a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%209"> 20/06/2022 - Resolução de problemas com algoritmos (Semana 09) </a>
+<br>
 
 ## Exercícios Opcionais
 <a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/05_AUT_EST_EX_OPCIONAIS/Exerc%C3%ADcios%20Opcionais/Semana%203"> 05/05/2022 - Resolução de problemas com algoritmos (Semana 03) </a>
