@@ -12,9 +12,9 @@ Minhas entregas, referentes às atividades de autoestudo, estão definidas aqui:
 <br>
 <a href="https://amandafontes.github.io/modulo2-amanda-fontes/03_AUT_EST_ENTREGA/Semana%206/Curr%C3%ADculo/Frontend/index.html"> 20/05/2022 - Exercício de Personalização da Etapa 5 (Semana 06) </a>
 <br>
-<a href="https://amandafontes.github.io/modulo2-amanda-fontes/03_AUT_EST_ENTREGA/Semana%207/Curr%C3%ADculo/Frontend/index.html"> 13/06/2022 - Exercício de Personalização da Etapa 6 (Semana 07) </a>
+<a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/03_AUT_EST_ENTREGA/Semana%207/Curr%C3%ADculo"> 13/06/2022 - Exercício de Personalização da Etapa 6 (Semana 07) </a>
 <br>
-<a href="https://amandafontes.github.io/modulo2-amanda-fontes/03_AUT_EST_ENTREGA/Semana%208/Curr%C3%ADculo/Frontend/index.html"> 20/06/2022 - Exercício de Personalização da Etapa 7 (Semana 08) </a>
+<a href="https://github.com/amandafontes/modulo2-amanda-fontes/tree/main/03_AUT_EST_ENTREGA/Semana%208/Curr%C3%ADculo"> 20/06/2022 - Exercício de Personalização da Etapa 7 (Semana 08) </a>
 <br>
 
 ## Exercícios Obrigatórios
