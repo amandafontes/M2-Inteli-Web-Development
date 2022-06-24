@@ -68,11 +68,11 @@ app.post('/btn', urlencodedParser, (req, res) => {
 });
 
 // Atualiza um registro (é o U do CRUD - Update)
-app.post('/userupdate', urlencodedParser, (req, res) => {
+app.put('/editar', urlencodedParser, (req, res) => {
     res.statusCode = 200;
     res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
-    sql = "UPDATE TB_HABILIDADES SET title = '" + req.body.title + "' WHERE userId = " + req.body.userId;
+    sql = "UPDATE TB_HABILIDADES SET habilidades = '" + req.body.habilidades + "' WHERE id = " + req.body.id;
     var db = new sqlite3.Database(DBPATH); // Abre o banco
     db.run(sql, [], err => {
         if (err) {
@@ -84,7 +84,7 @@ app.post('/userupdate', urlencodedParser, (req, res) => {
 });
 
 // Exclui um registro (é o D do CRUD - Delete)
-app.post('/deletarHabilidade', urlencodedParser, (req, res) => {
+app.delete('/deletarHabilidade', urlencodedParser, (req, res) => {
     res.statusCode = 200;
     res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 

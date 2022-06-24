@@ -1,5 +1,6 @@
 window.onload = function () {
     get();
+    getHabilidades();
 }
 var valor = 0;
 document.getElementById("box1").style.display = 'none';
@@ -54,10 +55,59 @@ function getHabilidades() {
         success: data => {
             var lista = '';
             data.forEach(element => {
-                lista += `<li>${element.habilidades}<button onclick="deletar(${element.id})">X</button></li>`;
-            });
+                lista += `<li id="${element.id}">${element.habilidades}<button onclick="deletar(${element.id})">X</button></li><li><button id="B${element.id}" onclick="editar(${element.id})">Editar</button></li>`;
+                });
             $('#lista').html(lista);
         }
     });
 
+}
+
+function deletar(id) {
+
+    if(confirm('Confirmar a exclusão?')) {
+        $.ajax({
+            type: 'DELETE',
+            url: 'http://127.0.0.1:3000/deletarHabilidade',
+            data: {id:id},
+        }).done(function(){
+            getHabilidades();
+        }).fail(function(msg) {
+        
+        }).always(function(msg) {
+
+        });
+    }
+}
+
+function editar(id) {
+
+    const input = document.createElement('input')
+    const input2 = document.getElementById(id)
+
+    input2.appendChild(input)
+
+    const button = document.getElementById(`B${id}`)
+    button.setAttribute('onclick', `salvar(${id})`)
+    button.innerText = "Salvar"
+}
+
+function salvar(id) {
+
+    var titulo = document.querySelector('input').value
+
+    $.ajax({
+        type: 'PUT',
+        url: 'http://127.0.0.1:3000/editar',
+        data: {
+            habilidades: titulo,
+            id:id
+        },
+    }).done(function(){
+        getHabilidades();
+    }).fail(function(msg) {
+    
+    }).always(function(msg) {
+
+    });
 }
